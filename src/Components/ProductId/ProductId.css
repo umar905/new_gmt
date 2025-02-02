@@ -1,0 +1,30 @@
+.itemsection{
+    background: white;
+}
+.itemsection__wrapper{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    img{
+        width: 400px;
+        object-fit: contain;
+    }
+}
+.infoitem{
+    width: 400px;    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+@media (max-width: 853px) {
+    
+}
+.addCard{
+    padding: 10px 50px;
+    background: none;
+    
+}

@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color: #9001be;
+}
+a , li{
+  text-decoration: none;
+  list-style: none;
+}
+input , select{
+  outline: none;
+}
+
+body {
+  font-family: Manrope;
+  background-color: #F8F7F3;
+}
+
+.container{
+  max-width: 1350px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}

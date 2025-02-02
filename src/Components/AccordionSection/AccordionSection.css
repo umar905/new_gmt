@@ -1,0 +1,37 @@
+.accordion{
+    background: var(--color);
+    padding-top: 120px;
+    padding-bottom: 120px;
+    color: #fff;
+}
+.accordion_wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media (max-width: 982px) {
+        flex-direction: column;
+        gap: 100px;
+        align-items: center;
+    }
+}
+.acc{
+    max-width: 650px;
+    width: 100%;
+    @media (max-width: 449px) {
+        max-width: 300px;
+        width: 100%;
+    }
+}
+.Accordion-container{
+    background: none !important;
+    color: #fff !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.whiteIcon{
+    color: #fff !important;
+
+}
+.css-1808mag-MuiPaper-root-MuiAccordion-root::before{
+    background-color: #fff !important;
+}

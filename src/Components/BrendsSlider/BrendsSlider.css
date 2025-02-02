@@ -1,0 +1,8 @@
+.imgslidediv2{
+    img{
+        width: 217px;
+        height: 102px;
+        object-fit: contain;
+    }
+    padding: 46px 52px;
+}

@@ -1,0 +1,63 @@
+.sendmsg {
+    background-color: #E5E4ED;
+    padding: 35px 5px;
+    background-image: url('../../../public/img/mssg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50px 0;
+
+    @media (max-width:482px) {
+        background-size: 100% ;
+        object-fit: cover; 
+        background-position: center;
+
+    }
+
+    .sendmsg_wrapper {
+        display: flex;
+        justify-content: end;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            input {
+                padding: 12px 25px;
+                border-radius: 50px;
+                border: 1px solid #D5D1E1;
+            }
+
+            button {
+                padding: 11px 30px;
+                background: var(--color);
+                color: #fff;
+                border-radius: 50px;
+                border: none;
+            }
+        }
+
+        @media (max-width:482px) {
+            justify-content: start;
+        }
+
+        @media (max-width:332px) {
+            h1 {
+                font-family: Manrope;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 21.6px;
+                text-align: left;
+
+            }
+
+            input {
+                width: 200px;
+            }
+
+            button {
+                width: 200px;
+            }
+        }
+    }
+}
